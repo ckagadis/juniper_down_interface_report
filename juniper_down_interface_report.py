@@ -32,7 +32,6 @@ while i < len(hostname): # While loop will run so long as the value of the "i" v
     try:
         hostNameCommandOutput = os.popen("nslookup " +  hostname[i]).read() # Retrieve the hostname of the network switch and store it as 'hostNameString' silently.
         remote_conn_pre=paramiko.SSHClient()
-        remote_conn_pre
         remote_conn_pre.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         remote_conn_pre.connect(hostname[i], username=userName, password=passWord, look_for_keys=False, allow_agent=False, timeout=2)
 
