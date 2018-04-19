@@ -6,6 +6,7 @@ import os
 import paramiko
 import time
 import getpass
+import dnspython
 
 """
 This script was written to assist in the retrieval of a list of network ports on Juniper network switches that have been in a "down" status for 12 weeks or more or have never been brought to an "up" status.
