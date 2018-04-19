@@ -4,7 +4,7 @@ BEFORE USING ANY CODE IN THESE SCRIPTS, READ THROUGH ALL FILES THOROUGHLY, UNDER
 
 Juniper Switch Down Interface Report
 =======================================================
-This script was written to assist in the retrieval of a list of network ports on Juniper network switches that have been in a "down" status for 12 weeks or more or have never been brought to an "up" status.  While it was written to address a particular need, it can also be used as a general framework for other purposes.  It was initially conceived as a way of pulling information from a Juniper network switch or list of switches (specifically the Juniper Ex 4200) by;
+This script was written to assist in the retrieval of a list of network ports on Juniper network switches that have been in a "down" status for 12 weeks or more or have never been brought to an "up" status.  While it was originally written for a specific purpose, it can also be used as a general framework in other uses.  It was initially conceived as a way of pulling information from a Juniper network switch or list of switches (specifically the Juniper Ex 4200) by;
 
 - Authenticating to a host via SSH
 - Executing commands and receiving the output of said commands
